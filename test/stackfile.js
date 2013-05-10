@@ -5,7 +5,7 @@ describe('StackRow', function() {
 	
 	describe('.isNative', function() {
 		it('should return true or false if the file is a native node.js file', function() {
-			stackrow = new StackRow('    at Context.<anonymous> (/node.js/nodular/nodular-stackparser/test/stackfile.js:8:10)');
+			var stackrow = new StackRow('    at Context.<anonymous> (/node.js/nodular/nodular-stackparser/test/stackfile.js:8:10)');
 			
 			stackrow.fileName = 'timer.js';
 			stackrow.isNative().should.be.true;
