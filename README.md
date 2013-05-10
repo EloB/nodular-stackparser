@@ -19,9 +19,12 @@ Example:
 ```javascript
 var stackparser = require('nodular-stackparser');
 
-var stackrows = stackparser(new Error());
+var err = new Error();
 
-console.log(stackparser);
+var stackrows = stackparser(err);
+
+console.log(err.stack); // Will output stack as string
+console.log(stackrows); // Will output stack as array with a StackRow object for each line. Example: { "method": "somemethod", "fileName": "/path/to/file.js", lineNumber: 5 }
 ```
 
 Social
