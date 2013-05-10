@@ -1,37 +1,3 @@
-nodular-stackparser
-===================
-
-A node.js error stack parser
-
-This module doesn't support Windows yet.
-
-Installation
-------
-
-```
-$ npm install nodular-stackparser
-```
-
-Quick Start
-------
-
-Example:
-```javascript
-var stackparser = require('nodular-stackparser');
-
-var stackrows = stackparser(new Error());
-
-console.log(stackparser);
-```
-
-Social
-------
-
-- Follow [ollebroms](https://twitter.com/ollebroms) on twitter.
-
-License
-------
-
 (The MIT License)
 
 Copyright (c) 2013-2013 Olle "EloB" Bröms <olle.broms@ewebbyran.se>

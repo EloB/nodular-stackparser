@@ -1,0 +1,28 @@
+{
+  "name": "nodular-stackparser",
+  "version": "0.0.0",
+  "description": "A node.js error stack parser",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "should": "~1.2.2"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EloB/nodular-stackparser.git"
+  },
+  "keywords": [
+    "error",
+    "stack",
+    "parser"
+  ],
+  "author": "Olle \"EloB\" Bröms",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
