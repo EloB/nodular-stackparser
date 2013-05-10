@@ -1,6 +1,6 @@
 {
   "name": "nodular-stackparser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node.js error stack parser",
   "main": "index.js",
   "directories": {
