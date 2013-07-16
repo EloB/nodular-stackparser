@@ -3,8 +3,6 @@ nodular-stackparser
 
 A node.js error stack parser
 
-This module doesn't support Windows yet.
-
 Installation
 ------
 
